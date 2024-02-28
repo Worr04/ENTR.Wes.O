@@ -1,0 +1,119 @@
+/* Custom Fonts */ 
+@font-face {
+    font-family: "Oswald";
+    src: url(Fonts/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    font-family: Oswald;
+    color: #304a64;
+    background-color: rgb(244, 244, 244);
+
+    transition: 0.5s ease all;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    border-radius: 50%;
+    width: 5%;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 5%;
+    width: 40%;
+    margin-right: 5%;
+}
+
+main {
+    margin-top: 15px;
+    max-width: 1350px;
+    margin: 15px auto;
+}
+
+section {
+    padding: 25px;
+}
+
+#hero {
+    display:flex;
+    gap:10px;
+}
+
+#hero img {
+    max-width: 50%;
+}
+
+.curve_edge {
+    border-radius: 10px;
+}
+
+.d_shadow {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#hero article {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero article button {
+    font-size: 1.25em;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 25%;
+    background-color: hsl(0, 0%, 92%);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+    padding: 20px;
+}
+
+#photo-booth {
+    display:flex;
+    gap: 5%;
+    font-size: 0.75em;
+}
+
+#photo-booth img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#photo-booth figcaption {
+    padding: 15px;
+}
+
+.hover:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease all;
+}
